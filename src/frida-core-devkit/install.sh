@@ -1,6 +1,5 @@
 #!/bin/sh
 set -e
-set +H
 
 echo "Installing Frida Core devkit"
 echo "Downloading Frida Core devkit from $DOWNLOAD_URL"

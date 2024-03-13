@@ -1,7 +1,7 @@
 {
     "name": "Frida Core devkit",
     "id": "frida-core-devkit",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Provides the Frida Core development kit",
     "options": {
         "download_url": {
