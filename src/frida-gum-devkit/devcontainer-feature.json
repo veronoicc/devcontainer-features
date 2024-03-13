@@ -1,0 +1,14 @@
+{
+    "name": "Frida Gum devkit",
+    "id": "frida-gum-devkit",
+    "version": "1.0.0",
+    "description": "Provides the Frida Gum development kit",
+    "options": {
+        "download_url": {
+            "type": "string",
+            "default": "https://github.com/frida/frida/releases/download/16.2.1/frida-gum-devkit-16.2.1-linux-x86.tar.xz",
+            "description": "Where to download the Frida Gum devkit from"
+        }
+    },
+    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
