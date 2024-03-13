@@ -1,7 +1,7 @@
 {
     "name": "Frida Gum devkit",
     "id": "frida-gum-devkit",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Provides the Frida Gum development kit",
     "options": {
         "download_url": {
