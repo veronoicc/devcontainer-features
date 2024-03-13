@@ -5,7 +5,7 @@ echo "Installing Frida Gum devkit"
 
 # Download the devkit
 echo "Downloading Frida Gum devkit from $DOWNLOAD_URL"
-wget -O frida-gum-devkit.tar.xz $DOWNLOAD_URL
+curl -L -o frida-gum-devkit.tar.xz $DOWNLOAD_URL
 
 # Extract the devkit
 mkdir -p /usr/local/include/frida-gum-devkit
