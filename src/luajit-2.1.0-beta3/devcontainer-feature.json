@@ -1,0 +1,7 @@
+{
+    "name": "LuaJIT 2.1.0-beta3",
+    "id": "luajit-2.1.0-beta3",
+    "version": "1.0.0",
+    "description": "Provides LuaJIT 2.1.0-beta3",
+    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

@@ -15,6 +15,7 @@ jobs:
                 features:
                     - frida-core-devkit
                     - frida-gum-devkit
+                    - luajit-2.1.0-beta3
                 baseImage:
                     - debian:latest
                     - ubuntu:latest
@@ -36,6 +37,7 @@ jobs:
                 features:
                     - frida-core-devkit
                     - frida-gum-devkit
+                    - luajit-2.1.0-beta3
         steps:
             - uses: actions/checkout@v3
 
